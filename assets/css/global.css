@@ -1,0 +1,43 @@
+html,
+body {
+	overflow: hidden;
+}
+
+.webcg-devtools .modal {
+	z-index: 10000 !important;
+	opacity: 1 !important;
+	height: 1920px !important;
+	width: 1080px !important;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/assets/fonts/Montserrat.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	font-style: italic;
+	src: url("/assets/fonts/Montserrat-Italic.ttf");
+}
+
+@font-face {
+	font-family: "Tisa Sans Pro Regular";
+	src: url("fonts/Tisa Sans Pro Regular.ttf");
+}
+
+
+@font-face {
+	font-family: "libre-caslon-bold";
+	src: url("/assets/fonts/libre-caslon-bold.otf");
+}
+
+@font-face {
+	font-family: "libre-caslon-italic";
+	src: url("/assets/fonts/libre-caslon-italic.otf");
+}
+
+@font-face {
+	font-family: "libre-caslon-text";
+	src: url("/assets/fonts/libre-caslon-text.otf");
+}

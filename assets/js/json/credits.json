@@ -1,0 +1,1307 @@
+{
+    "globalSettings": {
+        "background": {
+            "background": "transparent",
+            "font-family": "Montserrat"
+        }
+    },
+    "images": [
+        "Cardiff_W2.png",
+        "Crew logo_white.png",
+        "Full Logo white (1).png",
+        "IC White Transparent Logo.png",
+        "NEP.png",
+        "Surrey_W.png",
+        "UCA_W2.png",
+        "UOS white.png",
+        "Uni logos.png",
+        "Union logo_white.png",
+        "VISITING logos.png",
+        "Warwick_W.png",
+        "lIMITLESS.png"
+    ],
+    "fonts": [
+        "Montserrat-Italic.ttf",
+        "Montserrat.ttf",
+        "libre-caslon-bold.otf",
+        "libre-caslon-italic.otf",
+        "libre-caslon-text.otf"
+    ],
+    "content": [{
+            "type": "scroll",
+            "name": "Main Scroll",
+            "duration": "120",
+            "trackWidth": "1152",
+            "trackAlign": "9",
+            "backgroundImage": "None",
+            "backgroundAlign": "false",
+            "blocks": [{
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Acts (in order of appearance)"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Alys",
+                                    "name": [
+                                        "Alys Sheahan"
+                                    ]
+                                },
+                                {
+                                    "role": "The Barbershop Sisters",
+                                    "name": [
+                                        "Lee Ann Madissoon",
+                                        "Shirley Xu"
+                                    ]
+                                },
+                                {
+                                    "role": "Dead Fish New Water",
+                                    "name": "Felix Graalfs"
+                                },
+                                {
+                                    "role": "Cosmos Zero and Ethan",
+                                    "name": [
+                                        "Cosmos Aghadiuno",
+                                        "Ethan Delcroix\n\t\t\t\t\n\t\t\t"
+                                    ]
+                                },
+                                {
+                                    "role": "Midnight Sun",
+                                    "name": [
+                                        "Ailie Ikeda",
+                                        "Kimberly Yong\n\t\t\t\t\n\t\t\t"
+                                    ]
+                                },
+                                {
+                                    "role": "Scarlett Furness",
+                                    "name": [
+                                        "Scarlett Furness"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Presenters"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "University Hall Presenters",
+                                    "name": [
+                                        "Deni Addis",
+                                        "Matt Sutton "
+                                    ]
+                                },
+                                {
+                                    "role": "Green Room Presenter",
+                                    "name": "Eve Pitt"
+                                },
+                                {
+                                    "role": "Commentator",
+                                    "name": "Max Marroni"
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "University Judges"
+                        },
+                        {
+                            "type": "subTitle",
+                            "text": "Imperial College London"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Thomas Winston"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Yi Yuan Wang"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Shraddha Ashok\t"
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "University for the Creative Arts"
+                        },
+                        {
+                            "type": "text",
+                            "text": ""
+                        },
+                        {
+                            "type": "text",
+                            "text": ""
+                        },
+                        {
+                            "type": "text",
+                            "text": "Phaedra Van Laar"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Vanessa Silva"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Emma Smith"
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "Cardiff University"
+                        },
+                        {
+                            "type": "names",
+                            "names": [
+                                "Angie Flores"
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "University of Warwick"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Phoebe Powrie"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Emma Birch"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Dixon Junior Gao-Cheung"
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "University of Surrey"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Matt Aikin"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Oriana Savvidi"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Diana Dakik"
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Broadcast Operations"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Broadcast Director",
+                                    "name": "Irene Munoz-Lopez"
+                                },
+                                {
+                                    "role": "Technical Manager",
+                                    "name": "Adrienne Deganutti"
+                                },
+                                {
+                                    "role": "Studio Technical Manager\n\t\t\t\t\n\t\t\t",
+                                    "name": "Sam Sarjudeen"
+                                },
+                                {
+                                    "role": "Vision Mixer",
+                                    "name": "Ciaran Ennis"
+                                },
+                                {
+                                    "role": "Production Assistant",
+                                    "name": "Carl Ong Moller"
+                                },
+                                {
+                                    "role": "EVS Operator",
+                                    "name": "Cal Weyland-Oliver"
+                                },
+                                {
+                                    "role": "Graphics Operator",
+                                    "name": "Steven Wong"
+                                },
+                                {
+                                    "role": "Autocue Operator",
+                                    "name": "Ellicia Gosling"
+                                },
+                                {
+                                    "role": "Vision Engineer",
+                                    "name": "Hugo Landrey"
+                                },
+                                {
+                                    "role": "Outside Sources Engineer",
+                                    "name": "Nic Pratt"
+                                },
+                                {
+                                    "role": "University Hall Camera Operators",
+                                    "name": [
+                                        "Will Binning \n\t\t\t\t\n\t\t\t",
+                                        "Ben Websiter\n\t\t\t\t\n\t\t\t",
+                                        "Victor Poland\n\t\t\t\t\n\t\t\t",
+                                        "Maddie Webb",
+                                        "George Ford\n\t\t\t\t\n\t\t\t",
+                                        "Connor Hill\n\t\t\t\t\n\t\t\t",
+                                        "Alexander Simonov"
+                                    ]
+                                },
+                                {
+                                    "role": "Green Room Camera Operators",
+                                    "name": [
+                                        "James Bourner",
+                                        "Daniel Shirley\n\t\t\t\t\n\t\t\t",
+                                        "Trinity Hartfield"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Sound"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Sound Supervisor",
+                                    "name": "Mark Hennessy"
+                                },
+                                {
+                                    "role": "Sound Guarentee",
+                                    "name": "Harvey Hart"
+                                },
+                                {
+                                    "role": "Comms Engineer",
+                                    "name": [
+                                        "Devan Eatch"
+                                    ]
+                                },
+                                {
+                                    "role": "Head of Floor Sound",
+                                    "name": [
+                                        "Jonno Coughlin"
+                                    ]
+                                },
+                                {
+                                    "role": "Floor Sound Assistants - University Hall",
+                                    "name": [
+                                        "Gabriel Smith",
+                                        "Luke Haldane"
+                                    ]
+                                },
+                                {
+                                    "role": "Floor Sound Assistant - Green Room",
+                                    "name": "Toko Kano"
+                                },
+                                {
+                                    "role": "Front of House Sound Mixer",
+                                    "name": "Callum McCreath"
+                                },
+                                {
+                                    "role": "Monitor Mixer",
+                                    "name": "Zoe Mock"
+                                },
+                                {
+                                    "role": "Backing Track Producer\n\t\t\t\t\n\t\t\t",
+                                    "name": "Seraphin Gnehm"
+                                },
+                                {
+                                    "role": "Sound Editor",
+                                    "name": "Josh Gaze"
+                                },
+                                {
+                                    "role": "Voiceover Artist",
+                                    "name": "Luke Phillips"
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Studio Team"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Floor Producer",
+                                    "name": "Anna Franklin"
+                                },
+                                {
+                                    "role": "University Hall Floor Manager",
+                                    "name": "Amelia Kinstrey"
+                                },
+                                {
+                                    "role": "Assistant Floor Manager",
+                                    "name": "Lucy Archer"
+                                },
+                                {
+                                    "role": "Stage Manager",
+                                    "name": [
+                                        "Jess Battison"
+                                    ]
+                                },
+                                {
+                                    "role": "Assistant Stage Management",
+                                    "name": [
+                                        "Katie Martin",
+                                        "Millie Walker-Mousley",
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "role": "Interval Show Producer",
+                                    "name": [
+                                        "Sam Allum"
+                                    ]
+                                },
+                                {
+                                    "role": "Interval Show Floor Manager",
+                                    "name": "Milo Tuke "
+                                },
+                                {
+                                    "role": "Runners",
+                                    "name": [
+                                        "Chrissy Agius",
+                                        "Kwadwo Bonna Addo ",
+                                        "Zain Almajed",
+                                        "Finlay Maybank",
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "role": "Front of House",
+                                    "name": [
+                                        "Vou-Fri Sett",
+                                        "Elena Quevedo Santana"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Live Production"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Lighting Designer",
+                                    "name": "Josh Day"
+                                },
+                                {
+                                    "role": "Associate Lighting Designers",
+                                    "name": [
+                                        "Natalie O'Connor",
+                                        "Connor Hill",
+                                        "Cal Weyland-Oliver",
+                                        "Zoe Mock",
+                                        "James Bentham"
+                                    ]
+                                },
+                                {
+                                    "role": "Follow-Spot Operators",
+                                    "name": [
+                                        "Natalie O’Connor",
+                                        "Jac Williams"
+                                    ]
+                                },
+                                {
+                                    "role": "General Crew",
+                                    "name": [
+                                        "Ian Lipp\n\t\t\t\t\n\t\t\t",
+                                        "Phillip Munn\n\t\t\t\t\n\t\t\t",
+                                        "Jackson Sykes ",
+                                        "Ben Lucas"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Behind the Scenes"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "BTS Editors",
+                                    "name": [
+                                        "Henry Lagrange "
+                                    ]
+                                },
+                                {
+                                    "role": "BTS Videographers",
+                                    "name": [
+                                        "Henry Lagrange \n\t\t\t\t\n\t\t\t",
+                                        "Ezgi Dora\n\t\t\t\t\n\t\t\t",
+                                        "Alexander Simonov\n\t\t\t\t\n\t\t\t",
+                                        "Vou-Fri Sett ",
+                                        "Kwadwo Bonna Addo ",
+                                        "",
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "role": "Photography",
+                                    "name": [
+                                        "Joel Russell",
+                                        "Seraphin Gnehm"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "VT Production"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Titles Producer",
+                                    "name": "Eve Pitt"
+                                },
+                                {
+                                    "role": "Titles Cinematographer",
+                                    "name": "Eve Pitt"
+                                },
+                                {
+                                    "role": "Titles Crew",
+                                    "name": [
+                                        "Sam Allum",
+                                        "Heather Matthews",
+                                        "Anna Franklin",
+                                        "Katie Martin"
+                                    ]
+                                },
+                                {
+                                    "role": "Titles Editors",
+                                    "name": [
+                                        "Eve Pitt"
+                                    ]
+                                },
+                                {
+                                    "role": "Postcard VT Producer",
+                                    "name": [
+                                        "Eve Pitt"
+                                    ]
+                                },
+                                {
+                                    "role": "Postcard VT Editor",
+                                    "name": "Eve Pitt"
+                                },
+                                {
+                                    "role": "Alex Page Interview Producer",
+                                    "name": "Heather Matthews"
+                                },
+                                {
+                                    "role": "Alex Page Interview Editor",
+                                    "name": "Chrissy Agius"
+                                },
+                                {
+                                    "role": "Animator",
+                                    "name": [
+                                        "Chrissy Agius"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Steve the Stag"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "As Himself",
+                                    "name": "Steve the Stag"
+                                },
+                                {
+                                    "role": "Assistants to Mr S.T.Stag",
+                                    "name": [
+                                        "Heather Matthews"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Graphics and Effects"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Ident Production",
+                                    "name": [
+                                        "Sam Diaz",
+                                        "Chrissy Agius"
+                                    ]
+                                },
+                                {
+                                    "role": "Broadcast GFX",
+                                    "name": "Sam Chilton"
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "4"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Website"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                "role": "Voting Systems Architect",
+                                "name": "Sam Chilton"
+                            }]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "4"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Marketing"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Content Producer",
+                                    "name": [
+                                        "Toko Kano",
+                                        "Natalie O'Conner\n\t\t\t\t\n\t\t\t"
+                                    ]
+                                },
+                                {
+                                    "role": "Branding",
+                                    "name": "Chrissy Agius"
+                                },
+                                {
+                                    "role": "Students' Union Social Media",
+                                    "name": [
+                                        "Ivy Ivanova"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "4"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Production Support"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Catering",
+                                    "name": [
+                                        "Hillside Restaurant & Bar",
+                                        "Wates House"
+                                    ]
+                                },
+                                {
+                                    "role": "Accomodation",
+                                    "name": [
+                                        "University of Surrey"
+                                    ]
+                                },
+                                {
+                                    "role": "Artist Liason",
+                                    "name": "Chrissy Agius"
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "8"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Music"
+                        },
+                        {
+                            "type": "columns",
+                            "columns": "2",
+                            "blocks": [{
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"Univision Titles\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                "role": "Music:",
+                                                "name": "Benjamin Clark"
+                                            }]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"Shaddow\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": [
+                                                        "Alys Sheahan"
+                                                    ]
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": [
+                                                        "Alys Sheahan"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"I Know Him So Well\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": [
+                                                        "Benny Andersson",
+                                                        "Tim Rice",
+                                                        "Björn Ulvaeus"
+                                                    ]
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": [
+                                                        "Chess",
+                                                        "The Musical"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"Larry Garry\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": "Felix Graalfs"
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": [
+                                                        "Felix Graalfs"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"Encore\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": [
+                                                        "Cosmos Zero",
+                                                        "Ethan Delcroix\n\t\t\t\t\n\t\t\t"
+                                                    ]
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": [
+                                                        "Cosmos Zero\n\t\t\t\t\n\t\t\t",
+                                                        "Ethan Delcroix\n\t\t\t\t\n\t\t\t"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"I Dreamed a Dream / On My Own\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": [
+                                                        "Claude-Michel Schönberg"
+                                                    ]
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": "Les Miserables"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"I Don't Wanna Hold My Tongue\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": "Scarlett Furness"
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": [
+                                                        "Scarlett Furness"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                },
+                                {
+                                    "type": "rows",
+                                    "content": [{
+                                            "type": "spacing",
+                                            "settings": {},
+                                            "spacing": "4"
+                                        },
+                                        {
+                                            "type": "subTitle",
+                                            "text": "\"Dear Devil\""
+                                        },
+                                        {
+                                            "type": "names",
+                                            "names": [{
+                                                    "role": "Lyrics:",
+                                                    "name": [
+                                                        "Alex Page"
+                                                    ]
+                                                },
+                                                {
+                                                    "role": "Music:",
+                                                    "name": "Alex Page"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "settings": {}
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "14"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Special Thanks"
+                        },
+                        {
+                            "type": "subTitle",
+                            "text": "University of Surrey Students' Union"
+                        },
+                        {
+                            "type": "names",
+                            "names": [
+                                "Jade Johnson",
+                                "James Lackovic",
+                                "Sam Hallam",
+                                "Sam Hill",
+                                "Ian Handy"
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "University of Surrey"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Broadcast Consultant",
+                                    "name": "Susan Pratt"
+                                },
+                                {
+                                    "role": "Film Production & Broadcast Engineering Course",
+                                    "name": [
+                                        "Sam Sarjudeen",
+                                        "Alan Haigh"
+                                    ]
+                                },
+                                {
+                                    "role": "Events Team",
+                                    "name": [
+                                        "Sam Jones"
+                                    ]
+                                },
+                                {
+                                    "role": "Hillside Restaurant & Bar",
+                                    "name": [
+                                        "Mani Talwar",
+                                        "Alok Talwar"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "University Contacts"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "University of Warwick",
+                                    "name": "Emma Birch"
+                                },
+                                {
+                                    "role": "Cardiff University",
+                                    "name": "Shreshth Goel"
+                                },
+                                {
+                                    "role": "University for the Creative Arts",
+                                    "name": [
+                                        "Vanessa Silva"
+                                    ]
+                                },
+                                {
+                                    "role": "Imperial College London",
+                                    "name": [
+                                        "Celine Driessen"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "subTitle",
+                            "text": "Equipment Hire"
+                        },
+                        {
+                            "type": "text",
+                            "text": "WLX Productions"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Limitless Broadcast"
+                        },
+                        {
+                            "type": "text",
+                            "text": "NEP UK"
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "14"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Created By"
+                        },
+                        {
+                            "type": "names",
+                            "names": [
+                                "Luke Phillips",
+                                "Francis Cousins",
+                                "Heather Mathews"
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                },
+                {
+                    "type": "rows",
+                    "content": [{
+                            "type": "spacing",
+                            "settings": {},
+                            "spacing": "14"
+                        },
+                        {
+                            "type": "title",
+                            "text": "Production"
+                        },
+                        {
+                            "type": "names",
+                            "names": [{
+                                    "role": "Production Manager",
+                                    "name": [
+                                        "Ezgi Dora"
+                                    ]
+                                },
+                                {
+                                    "role": "Director",
+                                    "name": "Irene Munoz-Lopez"
+                                },
+                                {
+                                    "role": "Broadcast Assistant Producer",
+                                    "name": "Carl Ong Moller"
+                                },
+                                {
+                                    "role": "Technical Manager",
+                                    "name": "Adrienne Deganutti"
+                                },
+                                {
+                                    "role": "Head of Sound",
+                                    "name": [
+                                        "Mark Hennessy",
+                                        "Harvey Hart"
+                                    ]
+                                },
+                                {
+                                    "role": "Head of Lighting",
+                                    "name": "Josh Day"
+                                },
+                                {
+                                    "role": "Assistant Producers",
+                                    "name": [
+                                        "Sam Allum"
+                                    ]
+                                },
+                                {
+                                    "role": "Producers",
+                                    "name": [
+                                        "Heather Matthews",
+                                        "Anna Franklin"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "settings": {}
+                }
+            ]
+        },
+        {
+            "type": "fade",
+            "name": "Uni Logos",
+            "duration": "5",
+            "trackWidth": "1152",
+            "trackAlign": "9",
+            "backgroundImage": "None",
+            "backgroundAlign": "false",
+            "blocks": [{
+                "type": "rows",
+                "content": [{
+                    "type": "columns",
+                    "columns": "1",
+                    "blocks": [{
+                        "type": "rows",
+                        "content": [{
+                            "type": "image",
+                            "imageHeight": "18",
+                            "image": "VISITING logos.png"
+                        }],
+                        "settings": {}
+                    }]
+                }],
+                "settings": {}
+            }]
+        },
+        {
+            "type": "fade",
+            "name": "Tech Logos",
+            "duration": "5",
+            "trackWidth": "1152",
+            "trackAlign": "9",
+            "backgroundImage": "None",
+            "backgroundAlign": "false",
+            "blocks": [{
+                "type": "columns",
+                "content": [{
+                        "type": "image",
+                        "imageHeight": "6",
+                        "image": "lIMITLESS.png"
+                    },
+                    {
+                        "type": "image",
+                        "imageHeight": "7",
+                        "image": "NEP.png"
+                    }
+                ],
+                "settings": {}
+            }]
+        },
+        {
+            "type": "fade",
+            "name": "StagTV/Crew",
+            "duration": "5",
+            "trackWidth": "1152",
+            "trackAlign": "9",
+            "backgroundImage": "None",
+            "backgroundAlign": "false",
+            "blocks": [{
+                "type": "columns",
+                "content": [{
+                        "type": "image",
+                        "imageHeight": "7",
+                        "image": "Crew logo_white.png"
+                    },
+                    {
+                        "type": "image",
+                        "imageHeight": "7",
+                        "image": "Full Logo white (1).png"
+                    }
+                ],
+                "settings": {}
+            }]
+        },
+        {
+            "type": "fade",
+            "name": "Uni/Union",
+            "duration": "5",
+            "trackWidth": "1152",
+            "trackAlign": "9",
+            "backgroundImage": "None",
+            "backgroundAlign": "false",
+            "blocks": [{
+                "type": "columns",
+                "content": [{
+                    "type": "image",
+                    "imageHeight": "17",
+                    "image": "Uni logos.png"
+                }],
+                "settings": {}
+            }]
+        }
+    ]
+}

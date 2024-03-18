@@ -1,49 +1,50 @@
 from django.db import models
-from django.contrib.contenttypes.models import ContentType
 
 
 class Entity(models.Model):
+    slug = models.SlugField(max_length=20)
+
     class Meta:
         abstract = True
-
-    slug = models.SlugField(max_length=20)
 
     def __str__(self):
         return self.slug
 
 
-class Title(Entity):
-    contents = models.CharField(max_length=100)
-
-
 class Person(Entity):
-    class Meta:
-        abstract = True
-
-    display_name = models.CharField(max_length=100)
+    primary = models.CharField(max_length=100, verbose_name="name")
+    secondary = models.CharField(max_length=100, verbose_name="role")
 
 
-class GenericPerson(Person):
-    role = models.CharField(max_length=100, blank=True, null=True)
+class Performer(Entity):
+    primary = models.CharField(max_length=100, verbose_name="name")
+    secondary = models.CharField(max_length=100, verbose_name="university")
+
+    def __str__(self):
+        return self.primary
 
 
-class UniPerson(Person):
-    class Meta:
-        abstract = True
+class Judge(Entity):
+    primary = models.CharField(max_length=100, verbose_name="name")
+    secondary = models.CharField(max_length=100, verbose_name="university")
 
-    university = models.CharField(max_length=100)
-
-
-class Performer(UniPerson):
-    pass
+    def __str__(self):
+        return self.secondary
 
 
-class Judge(UniPerson):
-    pass
+class Title(Entity):
+    primary = models.CharField(max_length=100, verbose_name="title")
+    secondary = models.CharField(max_length=100, default="", editable=False)
 
 
 class Song(Entity):
-    name = models.CharField(max_length=100)
-    performer = models.OneToOneField(
-        Performer, on_delete=models.CASCADE, related_name="song"
+    primary = models.OneToOneField(
+        Performer,
+        on_delete=models.CASCADE,
+        related_name="song",
+        verbose_name="performer",
     )
+    secondary = models.CharField(max_length=100, verbose_name="name")
+
+    def __str__(self):
+        return f"{self.primary} - {self.secondary}"

@@ -1,12 +1,12 @@
 from django.urls import include, path
 
-from .views import EntityViewSet
+from .views import GenericEntityViewSet
 
 
 urlpatterns = [
     path(
-        "api/<str:type>/<slug:slug>/",
-        EntityViewSet.as_view({"get": "retrieve"}),
+        "api/<str:model>/<slug:slug>/",
+        GenericEntityViewSet.as_view({"get": "retrieve"}),
         name="entity-detail",
     ),
 ]

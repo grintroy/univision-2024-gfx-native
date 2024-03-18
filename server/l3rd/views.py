@@ -10,18 +10,15 @@ from .serializers import *
 from .models import *
 
 
-class EntityViewSet(viewsets.ViewSet):
+class GenericEntityViewSet(viewsets.ViewSet):
     def list(self, request):
         return Response(
             {"detail": "Method not allowed."}, status=status.HTTP_405_METHOD_NOT_ALLOWED
         )
 
-    def retrieve(self, request, slug=None, type=None):
+    def retrieve(self, request, slug=None, model=None):
         slug = slug.lower()
-        type = type
-
-        model = globals()[type]
-        print(slug, type, model)
+        model: Entity = globals()[model.capitalize()]
 
         try:
             instance = model.objects.get(slug=slug)

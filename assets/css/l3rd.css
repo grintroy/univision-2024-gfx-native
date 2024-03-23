@@ -5,6 +5,9 @@
 html {
   transform: scale(1.2);
   margin-top: -100px;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
 }
 
 body {
@@ -53,8 +56,7 @@ main {
   position: relative;
   transform: rotateX(65Deg);
   transform-style: preserve-3d;
-  transition: 0.5s;
-  transition-timing-function: cubic-bezier(.36, .2, .49, 1.16);
+  transition: all 0.5s cubic-bezier(.36, .2, .49, 1.16), font-size 0s;
 }
 
 .votesBoxFace {
@@ -167,11 +169,14 @@ main {
 
 #primary {
   font-weight: bold;
-  padding-right: 10px;
 }
 
 #secondary {
-  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#separator {
+  margin-left: 10px;
 }
 
 #primary,
@@ -179,7 +184,9 @@ main {
 #separator {
   z-index: 1;
   opacity: 1;
-  transition: 0.3s;
+  transition: all 0.3s, font-size 0s;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .overlay {
@@ -191,6 +198,7 @@ main {
   transition: 0.3s 0.3s;
   display: flex;
   opacity: 1;
+  font-size: 20pt;
 }
 
 .overlay .left {
@@ -199,7 +207,6 @@ main {
   background-color: rgba(0, 242, 255, 0.178);
   padding: 17px;
   z-index: 1;
-  font-size: 20pt;
   padding-top: 22px;
   white-space: nowrap;
 }
@@ -208,7 +215,6 @@ main {
   flex-grow: 1;
   z-index: 1;
   padding: 17px;
-  font-size: 20pt;
   padding-top: 22px;
   white-space: nowrap;
 }

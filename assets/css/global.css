@@ -12,13 +12,13 @@ body {
 
 @font-face {
 	font-family: "Montserrat";
-	src: url("/assets/fonts/Montserrat.ttf");
+	src: url("/assets/fonts/Montserrat-fixed.woff2");
 }
 
 @font-face {
 	font-family: "Montserrat";
 	font-style: italic;
-	src: url("/assets/fonts/Montserrat-Italic.ttf");
+	src: url("/assets/fonts/Montserrat-Italic-fixed.woff2");
 }
 
 @font-face {
